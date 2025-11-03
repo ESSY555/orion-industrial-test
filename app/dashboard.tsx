@@ -47,6 +47,7 @@ export default function Dashboard() {
         <>
             <StatusBar style="dark" backgroundColor="#FFFFFF" />
             <ScrollView
+                //this is the clickup change
                 key={`refresh-${refreshTick}`}
                 style={tw`h-full bg-[#F7F7F7]`}
                 showsVerticalScrollIndicator={false}
