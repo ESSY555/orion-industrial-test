@@ -24,8 +24,11 @@ export default function LoginScreen() {
     return (
         <>
             <StatusBar style="dark" backgroundColor="#FFFFFF" />
+
             <ScrollView style={tw`h-full bg-[#F7F7F7]`} contentContainerStyle={tw`flex-1 justify-center`}>
+
                 <View style={tw`px-4 pt-14 pb-6`}>
+
                     <View style={[tw`items-center mb-6`]}>
                         <Text style={[tw`text-black font-bold mt-3 text-[20px]`]}>Welcome Back</Text>
                         <Text style={[tw`text-gray-600 mt-1 text-[12px]`]}>Sign in to continue</Text>
